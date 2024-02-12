@@ -6,7 +6,6 @@ module.exports = {
         .setDescription('Replies the ping between the bot and the server.'),
     async execute (interaction) {
         interaction.reply(`👌 Ping between you and server is ${CalculPing(interaction)}`)
-        
     }
 }
 
