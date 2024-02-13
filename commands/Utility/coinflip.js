@@ -23,7 +23,9 @@ module.exports = {
             .setTitle('Coinflip')
             .setDescription(result)
             .setImage(image)
-            .setColor('#4613CD');
+            .setColor('#4613CD')
+            .setFooter({ text: 'OpenBot', iconURL: 'https://wallpapers-clan.com/wp-content/uploads/2023/11/star-wars-darth-maul-black-red-desktop-wallpaper-preview.jpg'});
+            
         await interaction.reply({ embeds: [embed] });
     }
 }
